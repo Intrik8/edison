@@ -1,0 +1,13 @@
+{
+  "slabs": [{
+    "name": "template",
+    "description": "Template Used for slabs",
+    "version": "1.0.0",
+    "requirements": [{
+      "name": "core",
+      "version": "0.0.0"
+    }],
+    "active": true
+
+  }]
+}

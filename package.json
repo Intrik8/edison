@@ -1,0 +1,30 @@
+{
+  "name": "Edison Application Server",
+  "version": "0.0.0",
+  "description": "A small business infrastructure server that allows for a
+  business to customize the software
+  for their needs.
+  ",
+  "author": "Jason Scherer <schereja@gmail.com>",
+  "contributors": [{
+    "name": "Jason Scherer",
+    "email": "schereja@gmail.com"
+  }],
+  "scripts": {
+    "test": "echo 'need to get figured out'",
+    "start": "node app.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/intrik8/edison"
+  },
+  "bugs": {
+    "url": "https://github.com/intrik8/edison"
+  },
+  "dependencies": {
+    "express": "4.2.x",
+    "colors": "*"
+  },
+  "license": "MIT"
+}
+a
