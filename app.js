@@ -27,7 +27,7 @@ app.use(bodyParser.urlencoded({
 }));
 app.use(bodyParser.json());
 app.use(router);
-
+app.use(express.static(path.join(pub + '/public')));
 app.use(favicon(path.join(pub, 'public', 'img', 'favicon.ico')));
 /*
   Setting default views path
