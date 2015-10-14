@@ -24,3 +24,4 @@ var test = {
     "database" : "Edison"
 }
 console.log(test);
+console.log(crypto.getCiphers());
