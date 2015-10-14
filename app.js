@@ -47,8 +47,8 @@ app.use(function(req, res, next) {
   console.log("Method: " + req.method + " URL: " + req.url);
   next();
 });
-require('controllers/edisonCore.js')(app);
-require('slabs/edisonSlabs.js')(app);
+require('./controllers/edisonCore.js')(app);
+require('./slabs/edisonSlabs.js')(app);
 
 app.use("/api", router);
 
