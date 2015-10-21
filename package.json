@@ -23,8 +23,11 @@
     "colors": "*",
     "jade": "1.11.x",
     "body-parser": "1.13.x",
-    "serve-favicon": "2.3.x"
+    "serve-favicon": "2.3.x",
+    "morgan": "~1.6.1",
+    "dotenv": "~1.2.0"
   },
   "license": "MIT",
-  "engine": "node >= 4.0.0"
+  "engine": "node >= 4.0.0",
+  "main": "app.js"
 }
